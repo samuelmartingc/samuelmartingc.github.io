@@ -1,0 +1,13 @@
+
+
+-- Hugo Static Site Generator v0.80.0/extended linux/amd64 BuildDate: unknown
+
+hugo new site blog
+cd blog
+git init
+git submodule add https://github.com/upagge/uBlogger.git themes/uBlogger
+
+-- see live demo
+hugo server -D --disableFastRender
+-- build static pages
+hugo -D
