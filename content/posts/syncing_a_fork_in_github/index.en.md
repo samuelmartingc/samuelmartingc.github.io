@@ -1,19 +1,17 @@
-+++
-title = "Syncing a fork in Github"
-description = "Syncing a fork in Github"
-tags = [
-    "development",
-    "git",
-    "Github"
-]
-date = "2016-05-20"
-categories = [
-    "Development",
-]
+--- 
+weight: 4
+title: "Syncing a fork in Github"
+date: "2016-05-20"
+lastmod: "2016-05-20"
+description: "Syncing a fork in Github"
 
- # image = "default.jpg"
-toc = true # optional, When set to TRUE this parameter, table of contents appears in only this article.
-+++
+tags: ["development",
+    "git",
+    "Github"]
+categories: ["Development"]
+
+lightgallery: true
+---
 
 Nowadays it’s essential to manage forks in [Github](https://github.com/) if you want to be a better programmer. Github is widely used worldwide and we should know at least how to use it.
 A key concept in github is the word ‘fork’. When you create a fork based in an (open-source) interesting project from other people or organization, you are doing a copy of that, linked by github to his parent. Since this moment, the two projects will evolve independently.

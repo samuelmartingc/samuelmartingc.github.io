@@ -1,19 +1,19 @@
-+++
-title = "Saving snapshots for SD card"
-description = "Saving snapshots for SD cards to restore information or cloning them"
-tags = [
-    "development",
-    "raspberry",
-]
-date = "2017-01-22"
-categories = [
-    "Development",
-]
+--- 
+weight: 4
+title: "Saving snapshots for SD card"
+date: "2017-01-22"
+lastmod: "2017-01-22"
+description: "Saving snapshots for SD cards to restore information or cloning them"
+resources:
+- name: "featured-image"
+  src: "raspberry.png"
 
-image = "raspberry.png"
+tags: ["development", "raspberry"]
+categories: ["Development"]
 
-toc = true # optional, When set to TRUE this parameter, table of contents appears in only this article.
-+++
+lightgallery: true
+---
+
 
 **Introduction**
 

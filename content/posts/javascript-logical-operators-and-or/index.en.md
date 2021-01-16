@@ -1,17 +1,16 @@
-+++
-title = "JavaScript Logical Operators (AND, OR)"
-description = "JavaScript Logical Operators (AND, OR)"
-tags = [
-    "development",
-    "javascript",
-]
-date = "2016-04-17"
-categories = [
-    "Development",
-]
+--- 
+weight: 4
+title: "JavaScript Logical Operators (AND, OR)"
+date: "2016-04-17"
+lastmod: "2016-04-17"
+description: "JavaScript Logical Operators (AND, OR)"
 
-toc = true # optional, When set to TRUE this parameter, table of contents appears in only this article.
-+++
+tags: ["development",
+    "javascript"]
+categories: ["Development"]
+
+lightgallery: true
+---
 
 Classical logical operators are used with boolean values, and they return the corresponding boolean result.
 However, in JavaScript, the `&&` (and) and `||` (or) operator values work in a most peculiar way.

@@ -1,18 +1,17 @@
-+++
-title = "First steps with No-SQL MongoDB"
-description = "First steps with No-SQL MongoDB"
-tags = [
-    "development",
-    "javascript",
-    "no-sql",
-]
-date = "2016-04-20"
-categories = [
-    "Development",
-]
+--- 
+weight: 4
+title: "First steps with No-SQL MongoDB"
+date: "2016-04-20"
+lastmod: "2016-04-20"
+description: "First steps with No-SQL MongoDB"
 
-toc = true # optional, When set to TRUE this parameter, table of contents appears in only this article.
-+++
+tags: ["development",
+    "javascript",
+    "no-sql"]
+categories: ["Development"]
+
+lightgallery: true
+---
 
 It’s easier than what you think to start with a No-SQL database like MongoDB.
 

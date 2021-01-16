@@ -1,17 +1,18 @@
-+++
-title = "Hello World!"
-description = "First post"
-tags = [
-    "development",
-]
-date = "2016-04-15"
-categories = [
-    "Development",
-]
+--- 
+weight: 4
+title: "Hello World!"
+date: "2016-04-15"
+lastmod: "2016-04-15"
+description: "First post"
+resources:
+- name: "featured-image"
+  src: "gota-1024x418-1024x418.jpg"
 
-image = "gota-1024x418-1024x418.jpg" # optional
-toc = true # optional, When set to TRUE this parameter, table of contents appears in only this article.
-+++
+tags: ["development"]
+categories: ["Development"]
+
+lightgallery: true
+---
 
 Welcome to my new blog, I’m Samuel Martín [@samuelmartingc].
 I want to share my knowledge and opinions with the world, trying to improve it, and be improved by it.
