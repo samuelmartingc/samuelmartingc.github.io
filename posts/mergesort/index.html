@@ -168,10 +168,10 @@ If you try to order with a brute force algorithm an array, you will probably end
 <p><strong>How does it work on a high level</strong></p>
 <p>Merge sort use the pattern divide and conquer, and will reduce the problem in smaller subproblems, then solve them, and finally it will merge/join these subproblems until reach the final solution.</p>
 <p>The steps on a high level are</p>
-<p>1- Take the array, split it in two halves.
-2- call recursively to the algorithm with each of the halves
-3- if the input array has size 2 or less, it means you have the base case, order it and return the solution
-4- merge the result of your current two halves</p>
+<p>1- Take the array, split it in two halves.</p>
+<p>2- call recursively to the algorithm with each of the halves</p>
+<p>3- if the input array has size 2 or less, it means you have the base case, order it and return the solution</p>
+<p>4- merge the result of your current two halves</p>
 <p><strong>Let&rsquo;s code it</strong></p>
 <p>First I like to have some basic unit tests to ensure my algorithm will work, so I will write them first:</p>
 <div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="kn">import</span> <span class="nn">org.junit.jupiter.api.Test</span><span class="o">;</span>
