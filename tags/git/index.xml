@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>git - Tag - ItAndWhatever</title>
+        <link>https://samuelmartingc.github.io/tags/git/</link>
+        <description>git - Tag - ItAndWhatever</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 20 May 2016 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://samuelmartingc.github.io/tags/git/" rel="self" type="application/rss+xml" /><item>
+    <title>Syncing a fork in Github</title>
+    <link>https://samuelmartingc.github.io/posts/syncing_a_fork_in_github/</link>
+    <pubDate>Fri, 20 May 2016 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/posts/syncing_a_fork_in_github/</guid>
+    <description><![CDATA[Nowadays it’s essential to manage forks in Github if you want to be a better programmer. Github is widely used worldwide and we should know at least how to use it. A key concept in github is the word ‘fork’. When you create a fork based in an (open-source) interesting project from other people or organization, you are doing a copy of that, linked by github to his parent. Since this moment, the two projects will evolve independently.]]></description>
+</item></channel>
+</rss>

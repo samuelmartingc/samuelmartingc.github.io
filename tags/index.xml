@@ -1,0 +1,63 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - ItAndWhatever</title>
+        <link>https://samuelmartingc.github.io/tags/</link>
+        <description>Tags - Tag - ItAndWhatever</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 20 May 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://samuelmartingc.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>algorithm</title>
+    <link>https://samuelmartingc.github.io/tags/algorithm/</link>
+    <pubDate>Thu, 20 May 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/tags/algorithm/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>development</title>
+    <link>https://samuelmartingc.github.io/tags/development/</link>
+    <pubDate>Thu, 20 May 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/tags/development/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>raspberry</title>
+    <link>https://samuelmartingc.github.io/tags/raspberry/</link>
+    <pubDate>Sun, 22 Jan 2017 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/tags/raspberry/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>docker</title>
+    <link>https://samuelmartingc.github.io/tags/docker/</link>
+    <pubDate>Sun, 30 Oct 2016 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/tags/docker/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>git</title>
+    <link>https://samuelmartingc.github.io/tags/git/</link>
+    <pubDate>Fri, 20 May 2016 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/tags/git/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Github</title>
+    <link>https://samuelmartingc.github.io/tags/github/</link>
+    <pubDate>Fri, 20 May 2016 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/tags/github/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>javascript</title>
+    <link>https://samuelmartingc.github.io/tags/javascript/</link>
+    <pubDate>Wed, 20 Apr 2016 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/tags/javascript/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>no-sql</title>
+    <link>https://samuelmartingc.github.io/tags/no-sql/</link>
+    <pubDate>Wed, 20 Apr 2016 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/tags/no-sql/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>

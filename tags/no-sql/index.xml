@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>no-sql - Tag - ItAndWhatever</title>
+        <link>https://samuelmartingc.github.io/tags/no-sql/</link>
+        <description>no-sql - Tag - ItAndWhatever</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 20 Apr 2016 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://samuelmartingc.github.io/tags/no-sql/" rel="self" type="application/rss+xml" /><item>
+    <title>First steps with No-SQL MongoDB</title>
+    <link>https://samuelmartingc.github.io/posts/first-steps-with-no-sql-mongodb/</link>
+    <pubDate>Wed, 20 Apr 2016 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/posts/first-steps-with-no-sql-mongodb/</guid>
+    <description><![CDATA[It’s easier than what you think to start with a No-SQL database like MongoDB.
+The first step is to install MongoDB. I am going to install it in Ubuntu 14.04 with these commands:
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927 echo &#34;deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse&#34; | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list sudo apt-get update sudo apt-get install -y mongodb-org If you want to install it with other OS or a specific version you should visit the official page]]></description>
+</item></channel>
+</rss>

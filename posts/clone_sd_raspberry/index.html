@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Saving snapshots for SD card | </title><meta name="Description" content="Saving snapshots for SD cards to restore information or cloning them"><meta property="og:title" content="Saving snapshots for SD card" />
+<meta property="og:description" content="Saving snapshots for SD cards to restore information or cloning them" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://samuelmartingc.github.io/posts/clone_sd_raspberry/" />
+<meta property="og:image" content="https://samuelmartingc.github.io/posts/clone_sd_raspberry/raspberry.png"/>
+<meta property="article:published_time" content="2017-01-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-01-22T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://samuelmartingc.github.io/posts/clone_sd_raspberry/raspberry.png"/>
+<meta name="twitter:title" content="Saving snapshots for SD card"/>
+<meta name="twitter:description" content="Saving snapshots for SD cards to restore information or cloning them"/>
+<meta name="application-name" content="ItAndWhatever">
+<meta name="apple-mobile-web-app-title" content="ItAndWhatever"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://samuelmartingc.github.io/posts/clone_sd_raspberry/" /><link rel="prev" href="https://samuelmartingc.github.io/posts/install-docker-on-ubuntu-and-how-to-use-it-without-sudo/" /><link rel="next" href="https://samuelmartingc.github.io/posts/mergesort/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Saving snapshots for SD card",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/samuelmartingc.github.io\/posts\/clone_sd_raspberry\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/samuelmartingc.github.io\/posts\/clone_sd_raspberry\/raspberry.png",
+                            "width":  1200 ,
+                            "height":  350 
+                        }],"genre": "posts","keywords": "development, raspberry","wordCount":  609 ,
+        "url": "https:\/\/samuelmartingc.github.io\/posts\/clone_sd_raspberry\/","datePublished": "2017-01-22T00:00:00+00:00","dateModified": "2017-01-22T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Author"},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": "Saving snapshots for SD cards to restore information or cloning them"
+    }
+    </script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https:\/\/samuelmartingc.github.io\/"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Development",
+            "item": "https://samuelmartingc.github.io/categories/development/"
+        },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Saving snapshots for SD card"
+            }]
+    }
+</script></head>
+    <body data-header-desktop="" data-header-mobile=""><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="ItAndWhatever" class="header-logo">ItAndWhatever</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/samuelmartingc" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="ItAndWhatever" class="header-logo">ItAndWhatever</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/samuelmartingc" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main"><div class="container content-article  theme-classic"><div class="toc" id="toc-auto">
+            <div class="toc-title">Contents</div>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><div class="header-post">
+        <div class="post-title">
+
+            <div class="post-all-meta">
+            <div class="breadcrumbs">
+    <a href="/">Home </a>/ <a href="/categories/development/">Development </a>/ <a href="/"> Saving snapshots for SD card </a>
+</div>
+            <h1 class="single-title animated flipInX">Saving snapshots for SD card</h1><div class="post-meta">
+                <div class="post-meta-line"><span class="post-category">
+                                <a href="/categories/development/"><i class="far fa-folder fa-fw"></i>&nbsp;Development</a>
+                            </span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time class="timeago" datetime="2017-01-22">2017-01-22</time>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;609 words
+                    &nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;3 minutes</div>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+        <article class="single toc-start">
+
+        <div class="content-block content-block-first content-block-position">
+
+        <div class="post"><div class="image-theme-classic">
+                <img src="/posts/clone_sd_raspberry/raspberry.png" style="width: 100%">
+            </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><p><strong>Introduction</strong></p>
+<p>Now that I am playing with my Raspberry Pi, I need to use different SD cards for many projects, and I was bored of formatting again and again my card, so I were searching for a more efficient way to switch between my projects and also having backups in an easy way.</p>
+<p>The solution has been simpler that I was expecting, just make snapshots of the current state in my SD card. I will show you how to make backups for your cards and how to restore them with simple commands in Linux.</p>
+<p><strong>Where is located?</strong></p>
+<p>First, we will insert the SD card in the computer where we will save the backup. We will want to know the name of the SD card in our system. To do this, you can type this command:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo fdisk -l
+</code></pre></div><p>Usually it will be <code>/dev/sdb</code>. The output should look like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">Disk /dev/sdb: 14,5 GiB, <span class="m">15560867840</span> bytes, <span class="m">30392320</span> sectors
+Units: sectors of <span class="m">1</span> * <span class="nv">512</span> <span class="o">=</span> <span class="m">512</span> bytes
+Sector size <span class="o">(</span>logical/physical<span class="o">)</span>: <span class="m">512</span> bytes / <span class="m">512</span> bytes
+I/O size <span class="o">(</span>minimum/optimal<span class="o">)</span>: <span class="m">512</span> bytes / <span class="m">512</span> bytes
+Disklabel type: dos
+Disk identifier: 0x1aaa6849
+
+Device     Boot  Start      End  Sectors  Size Id Type
+/dev/sdb1         <span class="m">2048</span>   <span class="m">499711</span>   <span class="m">497664</span>  243M  c W95 FAT32 <span class="o">(</span>LBA<span class="o">)</span>
+/dev/sdb2       <span class="m">501760</span> <span class="m">30392319</span> <span class="m">29890560</span> 14,3G <span class="m">83</span> Linux
+</code></pre></div><p><strong>Making a disk image of your SD card</strong></p>
+<p>Now we know where is located our card, the next step is to clone it to a (compressed) disk image. Basically, we are copying all the contents of the SD card to a file. This proccess is very similar to the creation of an ISO file from any DVD.</p>
+<p>As you may want to save different snapshots, in the example command below, we will add the timestamp to the file, so its name will be <code>image-DDMMYYYY-epochtime.gz</code> (where <em>DD</em>, <em>MM</em> and <em>YYYY</em> are the day, the month and the year and <em>epochtime</em> is the time in seconds elapsed since 1 January 1970). This will save you from overwriting a backup accidentally.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo dd <span class="nv">bs</span><span class="o">=</span>4M <span class="k">if</span><span class="o">=</span>/dev/sdb <span class="p">|</span> gzip &gt; /home/<span class="nv">$USER</span>/image-<span class="k">$(</span>date +%d%m%Y<span class="k">)</span>-<span class="k">$(</span>date +%s<span class="k">)</span>.img.gz
+</code></pre></div><p>This could take a long time, so be patient and take a walk in the meanwhile :)</p>
+<p>The output should be similar to this one, it took 20 minutes to finish:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">3710+0 records in
+3710+0 records out
+<span class="m">15560867840</span> bytes <span class="o">(</span><span class="m">16</span> GB, <span class="m">14</span> GiB<span class="o">)</span> copied, 1208,12 s, 12,9 MB/s
+</code></pre></div><p><strong>Write the disk image to the SD card</strong></p>
+<p>Ok, let&rsquo;s suppose that we have finished some project or we have failed and we want to rollback the SD card to the backup of the last week. We will do the inverse process. Following with the explaination above, this is conceptually similar to burning an ISO file to any DVD.</p>
+<p>We must simply choose the right disk image and burn it to the SD card.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gzip -dc /home/<span class="nv">$USER</span>/image-DATE-seconds.img.gz <span class="p">|</span> sudo dd <span class="nv">bs</span><span class="o">=</span>4M <span class="nv">of</span><span class="o">=</span>/dev/sdb
+</code></pre></div><p>This step will probably take more time than the previous one, because most of the cards have better performance reading than writing.</p>
+<p><strong>Seeing the progress of <code>dd</code></strong></p>
+<p>Yes, is tiresome to look at <code>dd</code> without knowing the progress, but you can run the following command in another terminal to stay informed:</p>
+<pre><code>progress -m
+</code></pre>
+<p>In older systems, you can use this alternative that will trigger a progress notification on the terminal used by <code>dd</code>:</p>
+<pre><code> while true; do sudo killall -USR1 dd; sleep 1; done
+</code></pre>
+<p><strong>Conclusion</strong></p>
+<p>This post has been short enough to not waste your time reading unrelated things, I hope that you have find these commands useful. Also, if you didn&rsquo;t guess it yet, you can apply the same procedure to USB flash drives, microSD cards and hard disks if you have enough space.</p>
+<p>Have a good day :)</p>
+</div>
+
+            <div class="post"><div class="post-info-share">
+    <span><a class="share-icon share-twitter" href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://samuelmartingc.github.io/posts/clone_sd_raspberry/" data-title="Saving snapshots for SD card" data-via="samuelmartingc" data-hashtags="development,raspberry"><i class="fab fa-twitter fa-fw"></i></a><a class="share-icon share-linkedin" href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://samuelmartingc.github.io/posts/clone_sd_raspberry/"><i class="fab fa-linkedin fa-fw"></i></a></span>
+</div><div class="post-footer" id="post-footer"><div class="post-navigation"><div class="post-nav-box nav-box-prev">
+            <a class="nav-box" href="/posts/install-docker-on-ubuntu-and-how-to-use-it-without-sudo/"><span class="nav-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="chevron-circle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"></path></svg></span><div style="text-align: right;padding-left: 10px"><div class="nav-text-h">Next article</div><span class="nav-text">Installing Docker on Ubuntu and how to use it without sudo</span></div></a>
+        </div>
+        <div class="post-nav-box nav-box-next">
+            <a class="nav-box" href="/posts/mergesort/"><div style="padding-right: 10px"><div class="nav-text-h">Next article</div><span class="nav-text">Mergesort</span></div><span class="nav-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="chevron-circle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"></path></svg></span></a>
+        </div></div></div>
+</div>
+        </div>
+    <div id="toc-final"></div>
+    </article><div class=" post-tags post-tags-toc "><a href="/tags/development/" class="tag">development</a><a href="/tags/raspberry/" class="tag">raspberry</a></div></div></main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.68.3">Hugo</a> | Theme - <a href="https://ublogger.netlify.app/?utm_source=https://samuelmartingc.github.io/&utm_medium=footer&utm_campaign=config&utm_term=1.2.0" target="_blank" title="uBlogger 1.2.0"><i class="fas fa-pencil-alt fa-fw"></i> uBlogger</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span>2021</span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/lg-zoom.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script src="/js/theme.min.js"></script><script src="/js/jquery-3.5.1.min.js"></script></body>
+</html>

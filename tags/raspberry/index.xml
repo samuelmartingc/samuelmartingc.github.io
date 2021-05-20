@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>raspberry - Tag - ItAndWhatever</title>
+        <link>https://samuelmartingc.github.io/tags/raspberry/</link>
+        <description>raspberry - Tag - ItAndWhatever</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 22 Jan 2017 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://samuelmartingc.github.io/tags/raspberry/" rel="self" type="application/rss+xml" /><item>
+    <title>Saving snapshots for SD card</title>
+    <link>https://samuelmartingc.github.io/posts/clone_sd_raspberry/</link>
+    <pubDate>Sun, 22 Jan 2017 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/posts/clone_sd_raspberry/</guid>
+    <description><![CDATA[Introduction
+Now that I am playing with my Raspberry Pi, I need to use different SD cards for many projects, and I was bored of formatting again and again my card, so I were searching for a more efficient way to switch between my projects and also having backups in an easy way.
+The solution has been simpler that I was expecting, just make snapshots of the current state in my SD card.]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>algorithm - Tag - ItAndWhatever</title>
+        <link>https://samuelmartingc.github.io/tags/algorithm/</link>
+        <description>algorithm - Tag - ItAndWhatever</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 20 May 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://samuelmartingc.github.io/tags/algorithm/" rel="self" type="application/rss+xml" /><item>
+    <title>Mergesort</title>
+    <link>https://samuelmartingc.github.io/posts/mergesort/</link>
+    <pubDate>Thu, 20 May 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/posts/mergesort/</guid>
+    <description><![CDATA[Introduction
+Yesterday I was talking with a teammate about algorithms, and how some people had troubles with them, so I will create this new post to explain how mergesort works. An algorithm to order arrays/lists in O(n*log n)
+Big O Complexity
+In case you have not heard about big O notation. I will do a brief resume about it. We usually talk about two types of complexity, space and time. And by default if it is not specified, usually everyone is talking about time.]]></description>
+</item></channel>
+</rss>

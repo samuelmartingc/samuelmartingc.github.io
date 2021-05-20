@@ -1,0 +1,67 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Development - Category - ItAndWhatever</title>
+        <link>https://samuelmartingc.github.io/categories/development/</link>
+        <description>Development - Category - ItAndWhatever</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 20 May 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://samuelmartingc.github.io/categories/development/" rel="self" type="application/rss+xml" /><item>
+    <title>Mergesort</title>
+    <link>https://samuelmartingc.github.io/posts/mergesort/</link>
+    <pubDate>Thu, 20 May 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/posts/mergesort/</guid>
+    <description><![CDATA[Introduction
+Yesterday I was talking with a teammate about algorithms, and how some people had troubles with them, so I will create this new post to explain how mergesort works. An algorithm to order arrays/lists in O(n*log n)
+Big O Complexity
+In case you have not heard about big O notation. I will do a brief resume about it. We usually talk about two types of complexity, space and time. And by default if it is not specified, usually everyone is talking about time.]]></description>
+</item><item>
+    <title>Saving snapshots for SD card</title>
+    <link>https://samuelmartingc.github.io/posts/clone_sd_raspberry/</link>
+    <pubDate>Sun, 22 Jan 2017 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/posts/clone_sd_raspberry/</guid>
+    <description><![CDATA[Introduction
+Now that I am playing with my Raspberry Pi, I need to use different SD cards for many projects, and I was bored of formatting again and again my card, so I were searching for a more efficient way to switch between my projects and also having backups in an easy way.
+The solution has been simpler that I was expecting, just make snapshots of the current state in my SD card.]]></description>
+</item><item>
+    <title>Installing Docker on Ubuntu and how to use it without sudo</title>
+    <link>https://samuelmartingc.github.io/posts/install-docker-on-ubuntu-and-how-to-use-it-without-sudo/</link>
+    <pubDate>Sun, 30 Oct 2016 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/posts/install-docker-on-ubuntu-and-how-to-use-it-without-sudo/</guid>
+    <description><![CDATA[Maybe you have heard about Docker, used to package your applications and services into a standardized unit which can be shipped and executed easily in every environment without external dependencies. In this post I want to show you how to install Docker on Ubuntu 16.04 LTS in an easy way, and also how to run it without root privileges. Sounds right? Let’s start.
+Introduction
+Developing complex enterprise applications can be tedious when you must mount every external service needed in your new machine, Elastic Search, MongoDB, Rabbitmq, etc.]]></description>
+</item><item>
+    <title>Syncing a fork in Github</title>
+    <link>https://samuelmartingc.github.io/posts/syncing_a_fork_in_github/</link>
+    <pubDate>Fri, 20 May 2016 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/posts/syncing_a_fork_in_github/</guid>
+    <description><![CDATA[Nowadays it’s essential to manage forks in Github if you want to be a better programmer. Github is widely used worldwide and we should know at least how to use it. A key concept in github is the word ‘fork’. When you create a fork based in an (open-source) interesting project from other people or organization, you are doing a copy of that, linked by github to his parent. Since this moment, the two projects will evolve independently.]]></description>
+</item><item>
+    <title>First steps with No-SQL MongoDB</title>
+    <link>https://samuelmartingc.github.io/posts/first-steps-with-no-sql-mongodb/</link>
+    <pubDate>Wed, 20 Apr 2016 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/posts/first-steps-with-no-sql-mongodb/</guid>
+    <description><![CDATA[It’s easier than what you think to start with a No-SQL database like MongoDB.
+The first step is to install MongoDB. I am going to install it in Ubuntu 14.04 with these commands:
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927 echo &#34;deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse&#34; | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list sudo apt-get update sudo apt-get install -y mongodb-org If you want to install it with other OS or a specific version you should visit the official page]]></description>
+</item><item>
+    <title>JavaScript Logical Operators (AND, OR)</title>
+    <link>https://samuelmartingc.github.io/posts/javascript-logical-operators-and-or/</link>
+    <pubDate>Sun, 17 Apr 2016 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/posts/javascript-logical-operators-and-or/</guid>
+    <description><![CDATA[Classical logical operators are used with boolean values, and they return the corresponding boolean result. However, in JavaScript, the &amp;&amp; (and) and || (or) operator values work in a most peculiar way. When working with different non-boolean types, they convert the left value on a boolean, and depending on the result of this conversion, they will return the original left value or the right one.
+For example, the OR operator will return the value of its left if this has proved true, and if it was false, then it return the right.]]></description>
+</item><item>
+    <title>Hello World!</title>
+    <link>https://samuelmartingc.github.io/posts/hello-world/</link>
+    <pubDate>Fri, 15 Apr 2016 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/posts/hello-world/</guid>
+    <description><![CDATA[Welcome to my new blog, I’m Samuel Martín @samuelmartingc. I want to share my knowledge and opinions with the world, trying to improve it, and be improved by it. I will write about IT, but also I want to share with you my opinions about almost everything. English is not my main language, but I will try to do my best.
+ Once again… welcome to my house. Come freely. Go safely; and leave something of the happiness you bring.]]></description>
+</item></channel>
+</rss>

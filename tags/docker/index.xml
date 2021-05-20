@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>docker - Tag - ItAndWhatever</title>
+        <link>https://samuelmartingc.github.io/tags/docker/</link>
+        <description>docker - Tag - ItAndWhatever</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 30 Oct 2016 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://samuelmartingc.github.io/tags/docker/" rel="self" type="application/rss+xml" /><item>
+    <title>Installing Docker on Ubuntu and how to use it without sudo</title>
+    <link>https://samuelmartingc.github.io/posts/install-docker-on-ubuntu-and-how-to-use-it-without-sudo/</link>
+    <pubDate>Sun, 30 Oct 2016 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://samuelmartingc.github.io/posts/install-docker-on-ubuntu-and-how-to-use-it-without-sudo/</guid>
+    <description><![CDATA[Maybe you have heard about Docker, used to package your applications and services into a standardized unit which can be shipped and executed easily in every environment without external dependencies. In this post I want to show you how to install Docker on Ubuntu 16.04 LTS in an easy way, and also how to run it without root privileges. Sounds right? Let’s start.
+Introduction
+Developing complex enterprise applications can be tedious when you must mount every external service needed in your new machine, Elastic Search, MongoDB, Rabbitmq, etc.]]></description>
+</item></channel>
+</rss>

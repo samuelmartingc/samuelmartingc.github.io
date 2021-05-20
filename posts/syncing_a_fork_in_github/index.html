@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Syncing a fork in Github | </title><meta name="Description" content="Syncing a fork in Github"><meta property="og:title" content="Syncing a fork in Github" />
+<meta property="og:description" content="Syncing a fork in Github" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://samuelmartingc.github.io/posts/syncing_a_fork_in_github/" />
+<meta property="article:published_time" content="2016-05-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-05-20T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Syncing a fork in Github"/>
+<meta name="twitter:description" content="Syncing a fork in Github"/>
+<meta name="application-name" content="ItAndWhatever">
+<meta name="apple-mobile-web-app-title" content="ItAndWhatever"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://samuelmartingc.github.io/posts/syncing_a_fork_in_github/" /><link rel="prev" href="https://samuelmartingc.github.io/posts/first-steps-with-no-sql-mongodb/" /><link rel="next" href="https://samuelmartingc.github.io/posts/install-docker-on-ubuntu-and-how-to-use-it-without-sudo/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Syncing a fork in Github",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/samuelmartingc.github.io\/posts\/syncing_a_fork_in_github\/"
+        },"genre": "posts","keywords": "development, git, Github","wordCount":  465 ,
+        "url": "https:\/\/samuelmartingc.github.io\/posts\/syncing_a_fork_in_github\/","datePublished": "2016-05-20T00:00:00+00:00","dateModified": "2016-05-20T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Author"},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": "Syncing a fork in Github"
+    }
+    </script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https:\/\/samuelmartingc.github.io\/"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Development",
+            "item": "https://samuelmartingc.github.io/categories/development/"
+        },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Syncing a fork in Github"
+            }]
+    }
+</script></head>
+    <body data-header-desktop="" data-header-mobile=""><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="ItAndWhatever" class="header-logo">ItAndWhatever</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/samuelmartingc" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="ItAndWhatever" class="header-logo">ItAndWhatever</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/samuelmartingc" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main"><div class="container content-article  theme-classic"><div class="toc" id="toc-auto">
+            <div class="toc-title">Contents</div>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><div class="header-post">
+        <div class="post-title">
+
+            <div class="post-all-meta">
+            <div class="breadcrumbs">
+    <a href="/">Home </a>/ <a href="/categories/development/">Development </a>/ <a href="/"> Syncing a fork in Github </a>
+</div>
+            <h1 class="single-title animated flipInX">Syncing a fork in Github</h1><div class="post-meta">
+                <div class="post-meta-line"><span class="post-category">
+                                <a href="/categories/development/"><i class="far fa-folder fa-fw"></i>&nbsp;Development</a>
+                            </span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time class="timeago" datetime="2016-05-20">2016-05-20</time>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;465 words
+                    &nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;3 minutes</div>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+        <article class="single toc-start">
+
+        <div class="content-block content-block-first content-block-position">
+
+        <div class="post"><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><p>Nowadays it’s essential to manage forks in <a href="https://github.com/" target="_blank" rel="noopener noreffer">Github</a> if you want to be a better programmer. Github is widely used worldwide and we should know at least how to use it.
+A key concept in github is the word ‘fork’. When you create a fork based in an (open-source) interesting project from other people or organization, you are doing a copy of that, linked by github to his parent. Since this moment, the two projects will evolve independently.
+The main reason to fork a project is to make new features or bug removals in your copy and then perform a ‘pull request’ to their parent. Briefly, a pull request is a way to push changes in another project letting the owner in the other project to accept or discard these changes.
+Of course it presents a problem over time. If the parent project is still developing new features and changes your fork must be updated in order to adquire these new changes and to avoid merge conflicts.
+I will explain to you how to stay aligned with the original project in a few very simple steps.</p>
+<p>By default, if you are using git you should know that you have the alias origin, which means your repository’s url, if more people are working in your project/fork probably you are using <em>git pull origin/master</em> or just <em>git pull</em> to get the new changes in your remote repository in your local machine. Now you will also need another one, I will name it <em>upstream</em> following the main convention, but you can name it as you prefer.</p>
+<p>Before all, you can check the list of your remote repositories already configured with this command:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git remote -v
+</code></pre></div><p>You should be seeing something like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git <span class="o">(</span>fetch<span class="o">)</span>
+origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git <span class="o">(</span>push<span class="o">)</span>
+</code></pre></div><p>which is your fork. To add another remote repository you should type this command:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+</code></pre></div><p>If the original repository were mine, I would type <a href="https://github.com/samuelmartingc/corbel-platform.github.io.git">https://github.com/samuelmartingc/corbel-platform.github.io.git</a>
+Ok, now we can check again the list of our repositories with git remote -v and see that we have the new one too.</p>
+<p>The next step is to check the new changes in the parent repository, we can do it with the following command:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git fetch upstream
+</code></pre></div><p>Then go back to our branch master in which I am working:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git checkout master
+</code></pre></div><p>And finally perform the merge between both branches:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git merge upstream/master
+</code></pre></div><p>If you have no conflicts this will be an automatic step, otherwise you should fix the conflicts before finish.
+At last but not least, you must remember to push the new changes in your branch to your remote repository with a simple <em>git push</em>.</p>
+<p>I hope that you have enjoyed this post or, at least, you have found it useful.
+Have a good day 🙂</p>
+<p>Samuel Martin</p>
+</div>
+
+            <div class="post"><div class="post-info-share">
+    <span><a class="share-icon share-twitter" href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://samuelmartingc.github.io/posts/syncing_a_fork_in_github/" data-title="Syncing a fork in Github" data-via="samuelmartingc" data-hashtags="development,git,Github"><i class="fab fa-twitter fa-fw"></i></a><a class="share-icon share-linkedin" href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://samuelmartingc.github.io/posts/syncing_a_fork_in_github/"><i class="fab fa-linkedin fa-fw"></i></a></span>
+</div><div class="post-footer" id="post-footer"><div class="post-navigation"><div class="post-nav-box nav-box-prev">
+            <a class="nav-box" href="/posts/first-steps-with-no-sql-mongodb/"><span class="nav-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="chevron-circle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"></path></svg></span><div style="text-align: right;padding-left: 10px"><div class="nav-text-h">Next article</div><span class="nav-text">First steps with No-SQL MongoDB</span></div></a>
+        </div>
+        <div class="post-nav-box nav-box-next">
+            <a class="nav-box" href="/posts/install-docker-on-ubuntu-and-how-to-use-it-without-sudo/"><div style="padding-right: 10px"><div class="nav-text-h">Next article</div><span class="nav-text">Installing Docker on Ubuntu and how to use it without sudo</span></div><span class="nav-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="chevron-circle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"></path></svg></span></a>
+        </div></div></div>
+</div>
+        </div>
+    <div id="toc-final"></div>
+    </article><div class=" post-tags post-tags-toc "><a href="/tags/development/" class="tag">development</a><a href="/tags/git/" class="tag">git</a><a href="/tags/github/" class="tag">Github</a></div></div></main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.68.3">Hugo</a> | Theme - <a href="https://ublogger.netlify.app/?utm_source=https://samuelmartingc.github.io/&utm_medium=footer&utm_campaign=config&utm_term=1.2.0" target="_blank" title="uBlogger 1.2.0"><i class="fas fa-pencil-alt fa-fw"></i> uBlogger</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span>2021</span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/lg-zoom.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script src="/js/theme.min.js"></script><script src="/js/jquery-3.5.1.min.js"></script></body>
+</html>
